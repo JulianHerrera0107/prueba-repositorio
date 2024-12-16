@@ -1,0 +1,8 @@
+Cómo hacer un alias en Git
+1. Configurar y guardar alias
+git config --global alias.log-decorado "log --graph --decorate --all --oneline"
+2. Nombrar el alias
+git log-decorado
+3. Util para guardar una larga instrucción de manera rápida
+4. ¿Cómo verificar mis alias?
+git config --list
